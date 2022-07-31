@@ -1,0 +1,117 @@
+:root {
+    --Very-Dark-blue: hsl(233, 47%, 7%);
+    --Dark-desaturated-blue: hsl(244, 38%, 16%);
+    --Soft-violet: hsl(277, 64%, 61%);
+    --White: hsl(0, 0%, 100%);
+    --Slightly-transparent-white: hsla(0, 0%, 100%, 0.75);
+    --Slightly-transparent-white: hsla(0, 0%, 100%, 0.6);
+    margin: 0;
+    padding: 0;
+    min-width: 375px;
+    border: none;
+    box-sizing: border-box
+
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+ 
+
+body {
+    
+    background-color: var(--Very-Dark-blue);
+    
+    font-size: 15px;
+     font-family: 'Inter', sans-serif;
+}
+
+#test-font {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 20px;
+}
+
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    margin: 20px;
+    background-color: var(--Dark-desaturated-blue);
+    border-radius: 15px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    max-width: 480px;
+}
+
+
+.img-div {
+    background-color: var(--Soft-violet);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 100%;
+    
+}
+img {
+opacity: 0.5;
+background-color: var(--Soft-violet);
+width: 100%;
+border-top-right-radius: 10px;
+border-top-left-radius: 10px;
+display: block;
+
+
+}
+
+.tekst-div {
+        padding: 10px;
+    font-weight: 400;
+    text-align: center;
+    color: var(--Slightly-transparent-white);
+}
+
+.header-typografi {
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    color: var(--White);
+    padding: 10px 0;
+
+}
+#h1-purpel {
+    color: var(--Soft-violet);
+}
+h1 {
+    margin: 0;
+}
+
+
+.stats {
+    margin: 20px 0 3px 0;
+    color: var(--White);
+text-transform: uppercase; 
+}
+
+
+.stats-type {
+    margin: 0 
+}
+
+
+
+  
+## Typography
+  
+### Body Copy
+
+- Font size: 15px
+
+### Font
+
+- Family: [Inter](https://fonts.google.com/specimen/Inter)
+- Weights: 400, 700
+
+- Family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca)
+- Weights: 400
